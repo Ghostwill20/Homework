@@ -12,3 +12,9 @@ Ps4 | Xbox
 Pros/Cons  | Pros/Cons
 better games better resolutions more popular more sales | it sucksssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
 
+* my Top Games on my PS4
+* destiny 2
+* fortnite
+* ghost recon
+* red dead 2
+   
