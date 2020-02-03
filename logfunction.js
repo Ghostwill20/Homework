@@ -91,9 +91,56 @@ else (c % 15 ==0)
 console.log("fizzbuzz")
 }
 
+var dog = 10
+while (dog <= 1000){
+if(dog % 10===0){
+  console.log(dog);
+  }
+  dog++;
+if(dog * 10 ===0){
+  console.log(cat) 
+}
+
+
+}
+
 //exercise function
+function addition(mum1, mum2){
+  console.log(mum1 + mum2)
+}
+
+addition (50,125);
 
 
+function multiply(mum1, mum2){
+  console.log (mum1 * mum2); 
+}
+
+
+multiply (50, 125);
+
+
+var a = 50
+var b = 125
+for(var a = 50; a <= 125; a++){
+console.log(a);
+}
+
+//global scope
+function subtraction(mum1, mum2){
+  console.log(mum1 - mum2)
+}
+
+subtraction (25,100);
+ 
+ (function subtraction() {
+  var x = 25;
+  var y = 100;
+  var answer = x - y;
+  console.log(x-y);
+  });
+//global function
+ 
 //
 function randomCheck(){
   var x = document.getElementById('userInput').value;
