@@ -80,3 +80,60 @@ while (word <= 50){
   word++;
 }
 
+for (c = 0; c < 100; c++)  
+{ 
+if (c % 3 == 0) {
+console.log("fizz")
+}
+else if (c % 5 ==0)
+console.log("buzz")
+else (c % 15 ==0)
+console.log("fizzbuzz")
+}
+
+//exercise function
+
+
+//
+function randomCheck(){
+  var x = document.getElementById('userInput').value;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// array
+var games = ["ps4", "xbox", "wii", "gameboy"];
+
+for(i = 0; i < games.length; i++){
+console.log(games[i]);
+}
