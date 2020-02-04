@@ -143,44 +143,5 @@ subtraction (25,100);
  
 //
 function randomCheck(){
-  var x = document.getElementById('userInput').value;
+  var x = document.getElementById('userinput').value;z
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// array
-var games = ["ps4", "xbox", "wii", "gameboy"];
-
-for(i = 0; i < games.length; i++){
-console.log(games[i]);
-}
