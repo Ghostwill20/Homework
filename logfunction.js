@@ -162,7 +162,6 @@ subtraction(25, 100);
 });
 //global function
 
-//
 function randomCheck() {
   var x = document.getElementById('userinput').value; z
 }

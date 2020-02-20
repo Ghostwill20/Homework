@@ -1,3 +1,4 @@
+// base formula
 let name = ['apple', 'blueberry', ' broccoli', 'milk', 'cheese'];
 let qty = [10, 15, 5, 25, 4]; 
 
@@ -34,3 +35,10 @@ function sub() {
         i++;
     });
 }
+///my solution
+
+
+
+
+
+
