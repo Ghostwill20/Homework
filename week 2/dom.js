@@ -108,9 +108,10 @@ function isValid(input){
 
 
       // i will attempt making a countdown timer
-      // this a base function form w3 schools
+      // this a base function form w3 schools 
+      // this is used as a templete for my timer
 
-      var countDownDate = new Date("Feb 28, 2020 12:00:20").getTime();
+      var countDownDate = new Date("Jan 21, 2021 12:00:00").getTime();
 
       // Update the count down every 1 second
       var x = setInterval(function() {
@@ -146,23 +147,21 @@ function isValid(input){
       // my attempt at a countdown timer
  
       function countdown(seconds){
-        var counter = seconds;
+        var i = seconds;
         var interval = setInterval(() => {
-          document.getElementById("time").innerHTML = counter--;
-          
-          if (counter < 0 ) {
+          document.getElementById("time").innerHTML = i--;
+      
+
+          if (i < 0 ) {
           clearInterval(interval);
             document.getElementById("time").innerHTML = "0";
           }	
         }, 1000);
-        
-        
-      }
+        }
       
       countdown(15);
-      document.getElementById("time").addEventListener("click", countdown);
-        function finish() {
-          document.getElementById("time").innerHTML = "noooooooooooooooooo";
-        }
-
+      
       // found this resource while scouring the internet
+     // part 2 my real attempt at a timer 
+
+
