@@ -4,10 +4,7 @@ module.exports = {
     }, 
     add: function (x,y) {
         console.log(x + y);
+    },
+    tim: function(williams){
+        console.log(williams)}
     }
-}
-
-module.exports = {
-    log: function(williams){
-   console.log(williams)}
-}

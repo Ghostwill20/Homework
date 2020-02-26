@@ -8,6 +8,7 @@ const importsss = require("./cmb2");
 
 importsss.log('hello');
 importsss.add(2,2);
+importsss.tim('the clubhouse')
 
 
 function carlos(){
@@ -19,9 +20,9 @@ carlos();
 // succesfully imported and exported my files
 
 function williams(){
-settimeout(function(){
+setTimeout(function(){
     console.log("the clubhouse");
-}, 10000);
+}, 50000);
 }
 williams();
-
+// successfully imported 50000 ms
