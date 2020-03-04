@@ -6,5 +6,9 @@ module.exports = {
         console.log(x + y);
     },
     tim: function(williams){
-        console.log(williams)}
+        console.log(williams)
     }
+/**
+ * close this up on the same line it starts
+ */
+} // <-
