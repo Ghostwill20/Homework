@@ -12,6 +12,35 @@
 // }
 // })
 //end of manipuliation
+// const readline = require('readline');
+
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// });
+
+// rl.question('guess first name : ', (name1) => {
+//     rl.question('guess last name  : ', (name2) => {
+     
+//       var result = (name1)+ " " + (name2);
+
+//         if(name1 !== "carlos"){
+//           console.log("err");
+//         }
+//         else if(name2 !== "williams"){
+//           console.log("err");
+//         }
+       
+//         else
+//         console.log(`correct my name is ${result}`);
+
+//         rl.close();
+        
+//     });
+// });
+
+
+
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -19,20 +48,20 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question('guess first name : ', (name1) => {
-    rl.question('guess last name  : ', (name2) => {
+rl.question('What city i live in : ', (city) => {
+    rl.question('what state i live in  : ', (state) => {
      
-      var result = (name1)+ " " + (name2);
+      var result = (city)+ " " + (state);
 
-        if(name1 !== "carlos"){
-          console.log("err");
-        }
-        else if(name2 !== "williams"){
-          console.log("err");
+        if(city !== "augusta" || state !== "georgia"){
+          console.log("guess again");
         }
        
+      
+
+
         else
-        console.log(`correct my name is ${result}`);
+        console.log(`correct the state yo live in ${result}`);
 
         rl.close();
         

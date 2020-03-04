@@ -1,6 +1,7 @@
-const importsss = require("./output.js");
 
-importsss.log('you have finished');
+const importss = require("./output.js");
+
+importss.log('you have finished');
 
 
 function carlos(){
