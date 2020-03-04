@@ -14,6 +14,7 @@ function someMath() {
             
         }
     }*/
+    const promise
     setTimeout(() => {
         return '100%';
     }, 3000);
