@@ -1,21 +1,17 @@
 var http = require('http');
-var path = require("path")
+
+var fs = require("fs");
 
 var server = http.createServer(function (req, res){
-   
-    if(req === "homework\week 5\server\index.html")
-    filename = "homework\week 5\server\index.html"
-    console.log(filename);
-
-    
-res.writeHead(200, {'Content-Type': 'text/plain'});
-res.end ('Was sup carlos');
-
-
+  fs.readFile("index.html" , function(err, data) {
+res.writeHead(200, {'Content-Type': 'text/html'});
+res.write (data);
+res.end()
+  });
 });
-
-
 server.listen(3000);
-
 console.log("server is on")
+
+
+
 
