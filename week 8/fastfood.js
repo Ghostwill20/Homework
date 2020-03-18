@@ -14,8 +14,7 @@ let totals = [
 ];
 console.log(totals);//successful
 
-document.getElementById("menu").innerHTML = items
-document.getElementById("menu").innerHTML = totals
+
 
 
 
