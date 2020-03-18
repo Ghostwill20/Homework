@@ -4,6 +4,13 @@
     <title>fast food app</title>
    
     <script src='fastfood.js'></script> 
+
+    <script>
+    function  submitOrder() {
+var str = document.getElementById("text").value;
+ alert("you have completed your order"  + " " +str);}
+
+    </script>
 </head>
 <body>
     <h1>Carlos Resturant</h1>
@@ -15,11 +22,9 @@
     <li>Fish</li>
 </ol>
 
-    <input placeholder="orderfood">
-    <button id="order" >order</button>
-    <script>
-    document.getElementById("order").addEventListener("click");
-    </script>
+    <input id="text" placeholder="orderfood">
+    <button onclick="submitOrder()">order</button>
+    
 </body>
 
 
